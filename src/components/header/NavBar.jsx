@@ -18,7 +18,7 @@ const NavBar = ({pTop})=>{
                 <li>Products</li>
                 <li>Support</li>
             </ul>
-                <button className='text-white sm:hidden ' onClick={()=>{ setNavBar(prev =>(!prev))}}> <FaBars className={`transition-all duration-300 ${navBar ? 'rotate-45 hidden ': 'block '}`}/> <AiOutlineClose className={` transition-all duration-300 ${navBar ? 'block fixed top-4 right-4 z-20': 'hidden rotate-45'}`}/></button>
+                <button className='text-white sm:hidden  text-3xl' onClick={()=>{ setNavBar(prev =>(!prev))}}> <FaBars className={`transition-all duration-300 ${navBar ? 'rotate-45 hidden ': 'block '}`}/> <AiOutlineClose className={` transition-all duration-300 ${navBar ? 'block fixed top-4 right-4 z-20': 'hidden rotate-45'}`}/></button>
         </nav>
     )
 }
